@@ -23,9 +23,9 @@ export default function Home() {
     <div>
       <h1>Hello World</h1>
       <ul>
-        {/* {pessoas.map((pessoa) => ( */}
-          {/* // <li key={pessoa.id}>{pessoa.nome}</li> */}
-        {/* // ))} */}
+        {pessoas.map((pessoa) => (
+          <li key={pessoa.id}>{pessoa.nome}</li>
+        ))}
       </ul>
     </div>
   );
